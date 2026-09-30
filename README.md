@@ -5,7 +5,7 @@ simple fetch
 Install
 
 ```bash
-git clone https://github.com/ssl1th3r/sfetch.git
+git clone https://github.com/lock3d9/sfetch.git
 cd sfetch
 go build
 ```
