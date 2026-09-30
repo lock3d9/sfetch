@@ -10,7 +10,7 @@ import (
 
 func main() {
 	emoticons := []string{"<3", ":3", ":D", ":)", ";)", ":P", ":*", ":o", ":/", ":|", ":'(", "^_^", ">_<", "o.o", "-_-", ">:3", "<:p", "XD", "O-O", ">:P"}
-	rand.Seed(time.Now().UnixNano())
+	time.Now().UnixNano()
 
 	OSS := exec.Command("sh", "-c", "tr -d '\"' < /etc/os-release | grep PRETTY_NAME | cut -b 13-")
 	kernel := exec.Command("uname", "-sr")
